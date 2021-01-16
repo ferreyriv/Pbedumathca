@@ -12,6 +12,7 @@ li{
 .navbar {
   text-align: center;
   color: #025157;
+  background-color: #fffbf7;
   font-weight: 500;
 }  
 .actions{
@@ -47,11 +48,11 @@ main > *{
     box-sizing: border-box; 
     vertical-align: middle;   
 }
-.singup-form{
+.signup-form{
   height: 50px;
 }
-.singup-form input,
-.singup-form button {
+.signup-form input,
+.signup-form button {
   height: 100%;
   border-radius: 8px;
 }
@@ -400,5 +401,8 @@ figure
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
-  
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+}
 }
