@@ -404,5 +404,9 @@ figure
   .success-stories {
     flex-direction: column;
     padding: 5% 15px;
+    
+}
+.success-stories .stories-carousel .card .card-media img {
+  max-height: unset;
 }
 }
